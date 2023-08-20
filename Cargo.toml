@@ -5,7 +5,33 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 homepage = "https://github.com/elarasuz/bayou"
 repository = "https://github.com/elarasuz/bayou"
-keywords = ["empty"]
-description = "placeholder name"
+keywords = ["iot", "analytics", "real-time", "store"]
+description = "iot real-time analytics"
 
 [dependencies]
+log = "0.4"
+env_logger = "0.10"
+clap = { version = "4.3", features = ["derive"] }
+
+# serializers
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+tokio = { version = "1.29", features = ["macros", "rt-multi-thread"] }
+file-rotate = "0.7.5"
+chrono = "0.4.26"
+# mqtt
+rumqttc = "0.22"
+# archive to s3 compatible
+opendal = "0.39"
+# cron job scheduler
+tokio-cron-scheduler = "0.9"
+
+# formats (json, json5, yaml etc.,)
+config = "0.13"
+
+#[profile.release]
+#opt-level = 'z' # optimize for size
+#lto = true
+#codegen-units = 1
+#strip = "debuginfo"

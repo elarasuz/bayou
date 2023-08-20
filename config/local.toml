@@ -1,0 +1,12 @@
+debug = true
+
+[mqtt]
+host = "iot.csafe.cloud"
+topic = "/provision/gateway/data"
+port = 1883
+
+[logs]
+path = "logs/log"
+files = 24
+
+[s3]
