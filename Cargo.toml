@@ -1,0 +1,11 @@
+[package]
+name = "bayou"
+version = "0.1.1"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/elarasuz/bayou"
+repository = "https://github.com/elarasuz/bayou"
+keywords = ["empty"]
+description = "placeholder name"
+
+[dependencies]
