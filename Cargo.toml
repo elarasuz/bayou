@@ -21,7 +21,7 @@ tokio = { version = "1.29", features = ["macros", "rt-multi-thread"] }
 file-rotate = "0.7.5"
 chrono = "0.4.26"
 # mqtt
-rumqttc = "0.22"
+rumqttc = "0.23"
 # archive to s3 compatible
 opendal = "0.39"
 # cron job scheduler
