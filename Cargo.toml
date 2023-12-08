@@ -23,7 +23,7 @@ chrono = "0.4.26"
 # mqtt
 rumqttc = "0.22"
 # archive to s3 compatible
-opendal = "0.39"
+opendal = "0.43"
 # cron job scheduler
 tokio-cron-scheduler = "0.9"
 
